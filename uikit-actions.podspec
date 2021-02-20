@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name          = 'uikit-actions'
-  spec.version       = '0.0.1'
+  spec.module_name   = 'UIKitActions'
+  spec.version       = '0.0.2'
   spec.license       = 'MIT'
   spec.authors       = { 'incetro' => 'incetro@ya.ru' }
   spec.homepage      = "https://github.com/Incetro/uikit-actions.git"
