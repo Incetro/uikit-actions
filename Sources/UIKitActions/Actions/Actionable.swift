@@ -11,7 +11,7 @@ import Foundation
 
 /// The protocol stores `Action` instances.
 /// The main goal of it is avoid them to be deallocated.
-protocol Actionable: class {
+protocol Actionable: AnyObject {
     var actions: [String: Action] { get }
 }
 
